@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: khuhshveer/Linkdin:latest
+          tags: khuhshveer/linkdin:latest
 
       - name: Run Docker container
-        run: docker run -d --name basic-container khuhshveer/Linkdin:latest
+        run: docker run -d --name basic-container khuhshveer/linkdin:latest
